@@ -1,2 +1,2 @@
 # Simple-Checkers-Game
-[file:///C:/Users/madhu/OneDrive/Desktop/Madhumitha_Checkers/Index.html]
+[CheckersGame](file:///C:/Users/madhu/OneDrive/Desktop/Madhumitha_Checkers/Index.html)
