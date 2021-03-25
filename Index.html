@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,12 +11,13 @@
     <script defer src="board.js"></script>
     <title>Checkers</title>
 </head>
-<body >
-    
+<body>
+    <button class="button" onclick='refreshPage()' id="button">Load New Game</button> 
     <main>
-        <div class="red-turn-text mobile">
+         <div class="red-turn-text mobile">
             Reds turn
         </div>
+
         <table>
             <tr>
                 <td class="noPieceHere"></td>
@@ -106,7 +108,6 @@
             <div class="black-turn-text">
                 Blacks turn
             </div>
-
         </div>
         <div class="black-turn-text mobile">
             Blacks turn

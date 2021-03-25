@@ -11,6 +11,12 @@ const board = [
     20, null, 21, null, 22, null, 23, null
 ]
 
+function refreshPage() {
+    if (confirm("Are you sure, you want to start a new game?")) {
+        location.reload();
+    }
+}
+
 /*---------- Cached Variables ----------*/
 
 // parses pieceId's and returns the index of that piece's place on the board
@@ -62,6 +68,9 @@ function givePiecesEventListeners() {
         }
     }
 }
+
+
+
 
 /*---------- Logic ----------*/
 
@@ -217,7 +226,7 @@ function checkPieceConditions() {
 function givePieceBorder() {
     if (selectedPiece.seventhSpace || selectedPiece.ninthSpace || selectedPiece.fourteenthSpace || selectedPiece.eighteenthSpace
         || selectedPiece.minusSeventhSpace || selectedPiece.minusNinthSpace || selectedPiece.minusFourteenthSpace || selectedPiece.minusEighteenthSpace) {
-        document.getElementById(selectedPiece.pieceId).style.border = "3px solid green";
+        document.getElementById(selectedPiece.pieceId).style.border = "4px solid green";
         giveCellsClick();
     } else {
         return;
