@@ -12,10 +12,12 @@ const board = [
 ]
 
 function refreshPage() {
-    if (confirm("Are you sure, you want to start a new game?")) {
+    if (confirm("Are you sure, You want to restart the Game?")) {
         location.reload();
     }
 }
+
+
 
 /*---------- Cached Variables ----------*/
 

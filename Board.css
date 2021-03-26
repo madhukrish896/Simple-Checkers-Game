@@ -12,6 +12,7 @@ main {
 }
 .button {
     background-color: lightgray;
+    display:inline-block;
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -19,6 +20,11 @@ main {
     margin: 4px 2px;
     border-radius: 12px;
 }
+.floatRight {
+    float: right;
+    margin-right:0px;
+}
+
 div {
     display: flex;
     justify-content: space-between;
